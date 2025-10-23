@@ -1,6 +1,4 @@
 // src/components/layout/Header.tsx
-
-import { Mood } from "@/lib/logo/moodThemes";
 import Logo from "../logo/logo";
 
 

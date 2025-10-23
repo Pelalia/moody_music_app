@@ -20,9 +20,10 @@ import z from "zod"
 import { useRouter } from "next/navigation"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
-import { supabase } from "@/lib/superbase/supabaseClient"
+
 import { toast } from "sonner"
 import { FaGoogle } from 'react-icons/fa';
+import { supabase } from "@/lib/superbase/supabaseServer"
 
 const loginSchema = z.object({
   email: z

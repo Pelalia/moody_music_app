@@ -20,7 +20,7 @@ import {
 } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
-import { supabase } from "@/lib/superbase/supabaseClient";
+import { supabase } from "@/lib/superbase/supabaseServer";
 
 const signupSchema = z
   .object({
